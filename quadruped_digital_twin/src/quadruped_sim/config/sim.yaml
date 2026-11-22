@@ -1,0 +1,15 @@
+# Isaac Sim 数字孪生后端配置
+
+# 物理/渲染频率 (Hz)
+physics_rate: 200
+render_rate: 60
+
+# 关节位置驱动增益 (PD)
+drive:
+  stiffness: 40.0
+  damping: 2.0
+
+# ROS 2 话题
+topics:
+  joint_states: /sim/joint_states       # 仿真 -> ROS
+  joint_commands: /sim/joint_commands   # ROS -> 仿真

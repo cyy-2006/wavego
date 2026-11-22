@@ -1,0 +1,45 @@
+# ---------- Unity (DTSourceCode) ----------
+DTSourceCode/[Ll]ibrary/
+DTSourceCode/[Tt]emp/
+DTSourceCode/[Oo]bj/
+DTSourceCode/[Bb]uild/
+DTSourceCode/[Bb]uilds/
+DTSourceCode/[Ll]ogs/
+DTSourceCode/[Uu]ser[Ss]ettings/
+DTSourceCode/[Pp]rofilerCaptures/
+DTSourceCode/[Mm]emoryCaptures/
+DTSourceCode/[Rr]ecordings/
+
+# Unity 自动生成的工程文件
+DTSourceCode/*.csproj
+DTSourceCode/*.sln
+DTSourceCode/*.suo
+DTSourceCode/*.user
+DTSourceCode/*.pidb
+DTSourceCode/*.booproj
+DTSourceCode/*.svd
+DTSourceCode/*.pdb
+DTSourceCode/*.mdb
+DTSourceCode/*.opendb
+DTSourceCode/*.VC.db
+DTSourceCode/*.unityproj
+DTSourceCode/*.sln.DotSettings.user
+
+# IDE
+DTSourceCode/.vs/
+DTSourceCode/.vscode/
+DTSourceCode/.idea/
+
+# ---------- ROS 2 / colcon ----------
+quadruped_digital_twin/build/
+quadruped_digital_twin/install/
+quadruped_digital_twin/log/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ---------- 系统垃圾文件 ----------
+.DS_Store
+Thumbs.db
+*~
+*.swp
